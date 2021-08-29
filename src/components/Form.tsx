@@ -2,9 +2,10 @@ import React from 'react';
 
 import { IonButton, IonIcon, IonContent, IonInput, IonToggle, IonItemSliding, IonItemOptions, IonItemOption } from '@ionic/react';
 import { IonItem, IonLabel, IonList, IonListHeader } from '@ionic/react';
+import './secondPageComponentStyle.css';
 
 export const ButtonExample: React.FC = () => (
-  <IonContent>
+  <IonContent className="contentClass">
     
     {/*-- Default List Header --*/}
     <IonListHeader>

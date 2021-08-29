@@ -8,7 +8,7 @@ const __html =`<h1>What is an investment?</h1><dt>Definition:</dt><dd> An invest
 
 function SecondPageComponent() {
     return (
-    <IonContent fullscreen={true} scrollX={false}  class="contentClass">
+    <IonContent fullscreen={true} scrollX={false}  className="contentClass">
         <div dangerouslySetInnerHTML={{__html}}></div>            
         <IonFab vertical="bottom" horizontal="end" slot="fixed">
           <IonFabButton color="primary" closeIcon={close}> 
