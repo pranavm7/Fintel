@@ -2,11 +2,10 @@ import React from 'react';
 
 import { IonButton, IonIcon, IonContent, IonInput, IonToggle, IonItemSliding, IonItemOptions, IonItemOption } from '@ionic/react';
 import { IonItem, IonLabel, IonList, IonListHeader } from '@ionic/react';
-import { star } from 'ionicons/icons';
 
 export const ButtonExample: React.FC = () => (
   <IonContent>
-
+    
     {/*-- Default List Header --*/}
     <IonListHeader>
       <IonLabel style={{ fontSize: 50 }}></IonLabel>
@@ -46,7 +45,7 @@ export const ButtonExample: React.FC = () => (
     </IonList>
 
     {/*-- Round --*/}
-    <IonButton shape="round" size="large">Next</IonButton>
+    <IonButton shape="round" size="large" href="/secondPage">Next</IonButton>
 
   </IonContent>
 );

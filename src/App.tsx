@@ -33,9 +33,9 @@ const App: React.FC = () => {
             <Route path="/" exact={true}>
              <ButtonExample />
             </Route>
-            <Route path="/page/:name" exact={true}>
+            {/* <Route path="/page/:name" exact={true}>
               <Page />
-            </Route>
+            </Route> */}
             <Route path="/secondPage" exact={true}>
               <SecondPage/>
             </Route>

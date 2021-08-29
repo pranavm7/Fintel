@@ -15,7 +15,8 @@ function SecondPageComponent() {
             <IonIcon icon={people}></IonIcon>
           </IonFabButton>
           <IonFabList side="start">
-              <IonButton color="primary" href="#" >Chat with Advisor</IonButton>
+              <IonButton color="primary" href="https://findial-chat.herokuapp.com/join" >Chat with Advisor</IonButton>
+              <IonButton color="primary" href="https://findial-chat.herokuapp.com/bot" >Chat with a Bot</IonButton>
           </IonFabList>
         </IonFab>
     </IonContent>        
