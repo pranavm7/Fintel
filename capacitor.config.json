@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "FinDial",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+{
+  "name": "FinDial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
