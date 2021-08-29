@@ -1,8 +1,8 @@
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { Redirect, Route } from 'react-router-dom';
+import {  Route } from 'react-router-dom';
 import Page from './pages/Page';
-
+import { ButtonExample } from './components/Form';
 import SecondPage from './pages/secondPage';
 
 /* Core CSS required for Ionic components to work properly */
@@ -31,7 +31,7 @@ const App: React.FC = () => {
         
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
-              <Redirect to="/page/Inbox" />
+             <ButtonExample />
             </Route>
             <Route path="/page/:name" exact={true}>
               <Page />
@@ -39,6 +39,7 @@ const App: React.FC = () => {
             <Route path="/secondPage" exact={true}>
               <SecondPage/>
             </Route>
+
             {/* <Route path="/"  component={}*/}
             {/*  Route */}
             {/* component tag */}
